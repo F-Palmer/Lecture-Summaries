@@ -1,3 +1,5 @@
+![[Pasted image 20260326161610.png]]
+
 ## Trennung der Variablen
 1. Ansatz $u(x,t) = X(x) \cdot T(t)$ (bzw. $u_x(x,t) = X'(x) \cdot T(t)$) einsetzten 
 2. Trennung der Variablen
@@ -5,7 +7,6 @@ $$\frac{T^{(n)}}{T} = \frac{X^{(m)}}{X} = - \lambda$$
 	Lambda "irgendwie schlau" festlegen
 3. Lösen der ODE für $X(x)$ und $T(t)$
 4. Superposition der Eigenlösung
-
 ### Beispielrechnung:
 $$u_t = 4\cdot u_{xx}$$
 Lösungsansatz $u(x,t) = X(x) \cdot T(t)$:
