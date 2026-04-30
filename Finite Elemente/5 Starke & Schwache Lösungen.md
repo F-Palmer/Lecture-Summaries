@@ -26,10 +26,9 @@ $$\begin{align}
 \Rightarrow_{(4)} 0_{(4.1)} +  \int_0^1 ku' \phi' dx &=  \int_0^1f * \phi dx\\
 \Rightarrow \int_0^1 ku(x)' \phi(x)' dx &=  \int_0^1f(x) * \phi(x) dx\\
 \end{align}$$
-$(1)$: mit Hilfsfunktion multiplizieren. $\phi(x) \in C^\infty_c$ -> unendlich ableitbar und compact, also bis auf einen kleinen Teil, gleich 0
+$(1)$: mit Hilfsfunktion multiplizieren. $\phi(x) \in C^\infty_c$ -> unendlich ableitbar und compact, also an den Rändern gleich 0
 $(2)$: Beide Seiten über den gesamten Bereich integrieren
 $(3)$: Partielle Integration anwenden
 $(4)$: Vereinfachen. Da $\phi$ compact ist, ist dieser Teil immer 0
 
 Ergebnis ist die schwache Form der Gleichung
-
