@@ -1,3 +1,4 @@
 - [[1 Hintergrundspeicher]]
 - [[2 Pufferverwaltung]]
 - [[3 Datenbank Administration & Speicherstrukturen]]
+- [[4 Dateiorganisation und Zugriffsstrukturen]]

@@ -18,7 +18,11 @@ Idee: Funktionen als unendlich dimensionale Vektoren
 $$a(u, v) = \int_0^1 u'(x) v'(x)dx$$
 
 ## Lax-Milgram
+Ein Konitinuierliches Problem hat eine eindeutige Lösung
+
 Schwache Formulierung einer DGL: $a(u,v) = F(v)$
 Wenn $a(u,v)$ zwei Eigenschaften erfüllt, gibt es genau eine Lösung:
 - Stetigkeit: $|a(u,v)| \leq ||u|| * ||v||$
 - Koerzivität: $a(u,u) \geq a ||u||^2$
+
+Irgendwas mit linearität des Funktionals

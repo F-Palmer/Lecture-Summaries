@@ -1,7 +1,6 @@
 > **FEM (Finite Elemente Methode)**:
 > ein numerisches Näherungsverfahren
 > Das gängigste Verfahren zur Berechnung und Simulation komplexer physikalischer Probleme
-> 
 ## Anwendungsgebiete
 komplexes Materialverfahren simulieren
 Materialien unter verschiedenen Belastungen und Umgebungsbedingungen simulieren

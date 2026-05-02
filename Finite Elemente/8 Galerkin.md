@@ -1,3 +1,5 @@
+Projeziert die DGL auf einen kleineren Lösungsraum (endlich dimensionalen)
+
 **Idee**: 
 Raten, dass die Lösung der DGL ungefähr so aussieht wie eine Kombination aus einfachen Funktionen
 -> Galerkin ist ein Näherungsverfahren
