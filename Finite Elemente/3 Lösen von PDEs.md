@@ -13,7 +13,7 @@ Lösungsansatz $u(x,t) = X(x) \cdot T(t)$:
 Ableitungen die gebraucht werden: 
 $$\begin{align*}
 u_t  &= X(x) \cdot T'(t) \\
-u_{xx} &= X''(x)\cdot T'(t)
+u_{xx} &= X''(x)\cdot T(t)
 \end{align*}$$
 In Aufgabe einsetzten: 
 $$X(x)\cdot T'(t) =4\cdot X''(x) \cdot T(t)$$
