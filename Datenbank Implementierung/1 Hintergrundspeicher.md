@@ -69,7 +69,7 @@ Verbinden mehrere Festplatten mit einem Controller zu einem einzigen logischen L
 - Ausfallsicherheit und Zuverlässigkeit wird erhöht
 - Effizienzsteigerung durch parallele Zugriffe
 
-Alternative zu RAID: Paritätsbits auf einer anderen Platte speichern
+Paritätsbits auf einer anderen Platte speichern
 
 ![[Pasted image 20260429163755.png]]
 
@@ -99,8 +99,7 @@ Wird nicht erklärt wie es funktioniert (Altklausuren?)
 
 Drei Möglichkeiten: 
 - jede Relation und jeden Zugriffspfad in genau einer Betriebssystemdatei speichern
-- eine oder mehrere Dateien durch das Betriebssystem an und verwaltet Relationen und
-Zugriffspfade selbst innerhalb dieser Dateien
+- eine oder mehrere Dateien durch das Betriebssystem an und verwaltet Relationen und Zugriffspfade selbst innerhalb dieser Dateien
 - DBSystem steuert selbst die Magnetplatte an und arbeitet mit den Blöcken in ihrer Ursprungsform
 	- DBSystem hat quasi ein eigenes Dateisystem
 

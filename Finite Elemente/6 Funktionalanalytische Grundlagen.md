@@ -1,6 +1,6 @@
 ## Normierte Räume
 Ein Raum mit einer Norm👍, der folgende Eigenschaften erfüllt: 
-Positivität: $||x|| \geq 0, ||x|| > 0 \Leftrightarrow x = 0$
+Positivität: $||x|| \geq 0, ||x|| = 0 \Leftrightarrow x = 0$
 Homogenität: $||ax|| = |a| \space ||x||$
 Dreiecksungleichung: $||x+y|| \leq ||x|| + ||y||$
 

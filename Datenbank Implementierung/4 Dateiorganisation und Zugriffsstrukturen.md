@@ -3,7 +3,7 @@
 > Also der Unterschied zwischen:
 > - unsortierter Speicherung (Heap-Organisation)
 > - sortierte Speicherung (Sequenzielle Organisation)
-> - gesteuerte Speicherung (Hash-Organisation)
+> - gestreute Speicherung (Hash-Organisation)
 
 > **Zugriffspfad**: 
 > jede Zugriffsstruktur die über die grundlegende Dateiorganisationsform hinaus geht
@@ -11,7 +11,7 @@
 
 
 ## Indizes
-Ohne Index muss statistisch gehen die Hälfte aller Datensätze durchsucht werden bis zum Treffer
+Ohne Index muss statistisch gesehen die Hälfte aller Datensätze durchsucht werden bis zum Treffer
 
 > **Composite Index**: 
 > Ein Index der über eine Kombination von Spalten geht
@@ -144,7 +144,6 @@ DELETE:
 	- Seite zurückgeben, Index anpassen
 
 #### Indexiert-nichtsequentieller Zugriffspfad
-#GEST Ich raff das nicht, hat das jetzt einen Primärindex irgendwo?
 Datensätze sind nicht sortiert gespeichert
 Dichter Index
 Nur Direktzugriff sinnvoll

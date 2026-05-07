@@ -102,3 +102,4 @@ Dh. allgemeine Lösung:
 $$
 u(x,y) = f(3x-2y) , \texttt{  für eine belibige Funktion } f(x,y)
 $$
+
