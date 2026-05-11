@@ -47,7 +47,7 @@ Ein Sector ist kein Pizza Stück!
 > **Wahlfreier Zugriff**: 
 > die Möglichkeit, in konstanter Zeit einen Speicherzugriff auf ein beliebiges Element durchführen zu können
 
-- Schreibvorgänge gleichmäßig auf alle Blöcke verteilen
+- Schreibvorgänge gleichmäßig auf alle Blöcke verteilen (Wear Leveling)
 
 ### Einsatz von Flash-DBMS
 - einfach ersetzten nicht sinnvoll
