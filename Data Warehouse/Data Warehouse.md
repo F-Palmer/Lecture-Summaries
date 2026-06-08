@@ -12,7 +12,7 @@ Data Federation:
 
 Data Structure: 
 structured: table 
-sem-structured: JSON
+semi-structured: JSON
 un-structured: free text
 
 Pull vs Push: 
@@ -49,3 +49,39 @@ and products. Dimension tables are sometimes called lookup or reference tables
 
 Fact-tables are normalised
 dimension tables are largely de-normalised
+
+```sql
+SELECT Airline, AVG(Delay) as average_delay
+FROM done_trips
+JOIN flights USING Flight
+GROUP BY Airline
+ORDER BY average_delay
+```
+
+```sql
+SELECT Aiport_country, COUNT(*)
+FROM done_trips as dt
+JOIN flights as f USING(Flight)
+JOIN airports as a ON f.airport_arr = a.Airport_Code
+JOIN data as d USING(Date)
+WHERE d.Quarter1 = 20231
+GROUP BY Aiport_country
+```
+
+```sql
+SELECT AVG(KM_Distance)
+FROM Car_Rentals
+```
+
+```sql
+SELECT AVG(KM_Distance)
+FROM Car_Rental
+JOIN Date USING(Date)
+WHERE Year = 2024
+```
+
+```SQL
+SELECT 
+FROM Car_Rentals
+JOIN 
+```
